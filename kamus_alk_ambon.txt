@@ -311,7 +311,6 @@ bakudis
 bakuku
 bakula
 bakumpul
-bakumpulpar
 bakurung
 bal
 bala
