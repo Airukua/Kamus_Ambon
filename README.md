@@ -9,7 +9,7 @@ Sejarah Ambon yang panjang dan beragam ini mencerminkan perjalanan pulau ini dar
 
 Kamus Bahasa Ambon ini menggabungkan kata-kata dari Kamus Bahasa Ambon yang diterbitkan pada tahun 1998 oleh D. Takaria dan C. Pieter dengan istilah-istilah yang diambil dari Alkitab Melayu (Ambon).
 
-Jika anda ingin mengakses menggunakan google colab 
+Jika anda ingin mengakses menggunakan google colab :
 ```python
 # URL repositori GitHub
 github_url = "https://raw.githubusercontent.com/Airukua/Kamus_Ambon/master/kamus_alk_ambon.txt"
@@ -22,7 +22,7 @@ file_path = "kamus_alk_ambon.txt"
 
 print(f"File '{file_path}' telah diunduh.")
 ```
-kemudian anda dapat membukanya menggunakan library pandas
+kemudian anda dapat membukanya menggunakan library pandas :
 
 ```python
 df = pd.read_csv(file_path, header=None, encoding='iso-8859-1')
