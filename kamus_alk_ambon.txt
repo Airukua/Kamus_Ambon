@@ -329,7 +329,7 @@ balanda
 balanga
 balangang
 balanja
-baláns
+balÃ¡ns
 balapis
 balapor
 balas
@@ -394,7 +394,7 @@ barani
 barapa
 baras
 barat
-barát
+barÃ¡t
 barbar
 bardosa
 bardosadeng
@@ -2086,7 +2086,6 @@ paminong
 pampele
 pana
 panaku
-panaku!
 panas
 panas pela
 pancing
@@ -2139,7 +2138,6 @@ parcaya
 parcuma
 pardidu
 parek
-parek!
 parenta
 paresko
 parico
@@ -2164,7 +2162,7 @@ paruru
 pas
 pasal
 pasang
-pasáng
+pasÃ¡ng
 pasar
 pasar pulu
 paser
