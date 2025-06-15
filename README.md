@@ -1,4 +1,4 @@
-# Ambonese Word Dictionary
+# Melayu (Ambon) Word Dictionary
 
 Ambon is an island located in the central part of the Maluku Islands in Indonesia. The island is renowned for its natural beauty and diversity, featuring lush green hills, white sandy beaches, and clear blue waters. However, Ambon's history also carries deep and complex layers.
 
