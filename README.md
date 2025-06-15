@@ -14,7 +14,7 @@ If you want to access it using Google Colab:
 
 ```python
 # GitHub repository URL
-github_url = "https://raw.githubusercontent.com/Airukua/Kamus_Ambon/master/kamus_alk_ambon.txt"
+github_url = "https://github.com/Airukua/Kamus_Ambon.git"
 
 # Location to save the downloaded file
 file_path = "kamus_alk_ambon.txt"
