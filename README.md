@@ -1,3 +1,4 @@
+
 # Melayu (Ambon) Word Dictionary
 
 Ambon is an island located in the central part of the Maluku Islands in Indonesia. The island is renowned for its natural beauty and diversity, featuring lush green hills, white sandy beaches, and clear blue waters. However, Ambon's history also carries deep and complex layers.
@@ -10,23 +11,39 @@ Ambon's rich and diverse history reflects the island's journey from the colonial
 
 This Ambonese dictionary combines words from the **Kamus Bahasa Ambon** published in 1998 by D. Takaria and C. Pieter, with terms taken from the **Ambonese Malay Bible**.
 
-If you want to access it using Google Colab:
+---
+
+### Accessing the Dictionary via Google Colab
+
+#### ✅ Option 1: Download the dictionary file directly
 
 ```python
-# GitHub repository URL
-github_url = "https://github.com/Airukua/Kamus_Ambon.git"
+# Direct URL to the raw .txt file
+file_url = "https://raw.githubusercontent.com/Airukua/Kamus_Ambon/master/kamus_alk_ambon.txt"
 
-# Location to save the downloaded file
+# Desired path to save the file
 file_path = "kamus_alk_ambon.txt"
 
-# Downloading the file from the URL
-!wget.download(github_url, out=file_path)
+# Download the file using urllib
+import urllib.request
+urllib.request.urlretrieve(file_url, file_path)
 
 print(f"File '{file_path}' has been downloaded.")
 ```
 
-You can then open it using the pandas library:
+#### ✅ Option 2: Clone the entire repository (if you want all files)
 
 ```python
-df = pd.read_csv(file_path, header=None, encoding='iso-8859-1')
+# Clone the full GitHub repository
+!git clone https://github.com/Airukua/Kamus_Ambon.git
 ```
+
+Then, access the file with:
+
+```python
+import pandas as pd
+
+# Load the file from the cloned repository
+df = pd.read_csv("Kamus_Ambon/kamus_alk_ambon.txt", header=None, encoding='iso-8859-1')
+```
+
